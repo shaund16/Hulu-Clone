@@ -1,9 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
+import HeaderItem from './HeaderItem';
 
 const Header = () => {
   return (
     <header className=''>
+    <div>
+      <HeaderItem title='HOME' Icon={} />
+    </div>
       <Image
         className='object-contain'
         src='https://links.papareact.com/ua6'
