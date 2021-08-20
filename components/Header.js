@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import React from 'react';
-import HeaderItem from './HeaderItem';
 import {
   BadgeCheckIcon,
   CollectionIcon,
@@ -9,6 +6,8 @@ import {
   SearchIcon,
   UserIcon,
 } from '@heroicons/react/outline';
+import Image from 'next/image';
+import HeaderItem from './HeaderItem';
 
 const Header = () => {
   return (
@@ -26,6 +25,7 @@ const Header = () => {
         src='https://links.papareact.com/ua6'
         width={200}
         height={100}
+        alt={'logo'}
       />
     </header>
   );
