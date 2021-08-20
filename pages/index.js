@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
+import Results from '../components/Results';
 
 export default function Home() {
   return (
@@ -12,11 +13,10 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      {/* Header */}
+      
       <Header />
-      {/* Nav */}
       <Nav />
-      {/* Results */}
+      <Results />
     </div>
   );
 }
