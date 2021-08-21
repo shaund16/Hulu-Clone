@@ -2,8 +2,7 @@
 
 Built Hulu Clone using React, Next.js, Tailwind Css, TMDB API
 
-
-### Preview 
+### Preview
 
 https://hulu-clone-five-iota.vercel.app/
 
